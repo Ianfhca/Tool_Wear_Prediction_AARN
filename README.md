@@ -13,57 +13,59 @@ Los 18 experimentos, se han recopilado con una tasa de muestreo de 100 ms (se mu
 2. Tomando cada uno de los 18 experimentos (la serie temporal completa) como una observación para la clasificación de series temporales.
 
 ## Características
-X1_ActualPosition: posición actual en x de la pieza (mm)
-X1_ActualVelocity: velocidad actual en x de la pieza (mm/s)
-X1_ActualAcceleration: aceleración actual en x de la pieza (mm/s/s)
-X1_CommandPosition: posición de referencia en x de la pieza (mm)
-X1_CommandVelocity: velocidad de referencia en x de la pieza (mm/s)
-X1_CommandAcceleration: aceleración de referencia en x de la pieza (mm/s/s)
-X1_CurrentFeedback: corriente actual (A)
-X1_DCBusVoltage: voltaje (V)
-X1_OutputCurrent: corriente de salida (A)
-X1_OutputVoltage: voltaje de salida (V)
-X1_OutputPower: potencia de salida (kW)
+**X1_ActualPosition**: posición actual en x de la pieza (mm)<br />
+**X1_ActualVelocity**: velocidad actual en x de la pieza (mm/s)<br />
+**X1_ActualAcceleration**: aceleración actual en x de la pieza (mm/s/s)<br />
+**X1_CommandPosition**: posición de referencia en x de la pieza (mm)<br />
+**X1_CommandVelocity**: velocidad de referencia en x de la pieza (mm/s)<br />
+**X1_CommandAcceleration**: aceleración de referencia en x de la pieza (mm/s/s)<br />
+**X1_CurrentFeedback**: corriente actual (A)<br />
+**X1_DCBusVoltage**: voltaje (V)<br />
+**X1_OutputCurrent**: corriente de salida (A)<br />
+**X1_OutputVoltage**: voltaje de salida (V)<br />
+**X1_OutputPower**: potencia de salida (kW)<br />
 
-Y1_ActualPosition: posición actual en y de la pieza (mm)
-Y1_ActualVelocity: velocidad actual en y de la pieza (mm/s)
-Y1_ActualAcceleration: aceleración actual en y de la pieza (mm/s/s)
-Y1_CommandPosition: posición de referencia en y de la pieza (mm)
-Y1_CommandVelocity: velocidad de referencia en y de la pieza (mm/s)
-Y1_CommandAcceleration: aceleración de referencia en y de la pieza (mm/s/s)
-Y1_CurrentFeedback: corriente actual (A)
-Y1_DCBusVoltage: voltaje (V)
-Y1_OutputCurrent: corriente de salida (A)
-Y1_OutputVoltage: voltaje de salida (V)
-Y1_OutputPower: potencia de salida (kW)
+**Y1_ActualPosition**: posición actual en y de la pieza (mm)<br />
+**Y1_ActualVelocity**: velocidad actual en y de la pieza (mm/s)<br />
+**Y1_ActualAcceleration**: aceleración actual en y de la pieza (mm/s/s)<br />
+**Y1_CommandPosition**: posición de referencia en y de la pieza (mm)<br />
+**Y1_CommandVelocity**: velocidad de referencia en y de la pieza (mm/s)<br />
+**Y1_CommandAcceleration**: aceleración de referencia en y de la pieza (mm/s/s)<br />
+**Y1_CurrentFeedback**: corriente actual (A)<br />
+**Y1_DCBusVoltage**: voltaje (V)<br />
+**Y1_OutputCurrent**: corriente de salida (A)<br />
+**Y1_OutputVoltage**: voltaje de salida (V)<br />
+**Y1_OutputPower**: potencia de salida (kW)<br />
 
-Z1_ActualPosition: posición actual en z de la pieza (mm)
-Z1_ActualVelocity: velocidad actual en z de la pieza (mm/s)
-Z1_ActualAcceleration: aceleración actual en z de la pieza (mm/s/s)
-Z1_CommandPosition: posición de referencia en z de la pieza (mm)
-Z1_CommandVelocity: velocidad de referencia en z de la pieza (mm/s)
-Z1_CommandAcceleration: aceleración de referencia en z de la pieza (mm/s/s)
-Z1_CurrentFeedback: corriente actual (A)
-Z1_DCBusVoltage: voltaje (V)
-Z1_OutputCurrent: corriente de salida (A)
-Z1_OutputVoltage: voltaje de salida (V)
+**Z1_ActualPosition**: posición actual en z de la pieza (mm)<br />
+**Z1_ActualVelocity**: velocidad actual en z de la pieza (mm/s)<br />
+**Z1_ActualAcceleration**: aceleración actual en z de la pieza (mm/s/s)<br />
+**Z1_CommandPosition**: posición de referencia en z de la pieza (mm)<br />
+**Z1_CommandVelocity**: velocidad de referencia en z de la pieza (mm/s)<br />
+**Z1_CommandAcceleration**: aceleración de referencia en z de la pieza (mm/s/s)<br />
+**Z1_CurrentFeedback**: corriente actual (A)<br />
+**Z1_DCBusVoltage**: voltaje (V)<br />
+**Z1_OutputCurrent**: corriente de salida (A)<br />
+**Z1_OutputVoltage**: voltaje de salida (V)<br />
 
-S1_ActualPosition: posición actual del husillo (mm)
-S1_ActualVelocity: velocidad actual del husillo (mm/s)
-S1_ActualAcceleration: aceleración actual del husillo (mm/s/s)
-S1_CommandPosition: posición de referencia del husillo (mm)
-S1_CommandVelocity: velocidad de referencia del husillo (mm/s)
-S1_CommandAcceleration: aceleración de referencia del husillo (mm/s/s)
-S1_CurrentFeedback: corriente actual (A)
-S1_DCBusVoltage: voltaje (V)
-S1_OutputCurrent: corriente de salida (A)
-S1_OutputVoltage: voltaje de salida (V)
-S1_OutputPower: potencia de salida (A)
-S1_SystemInertia: inercia de torsión (kg\*m^2)
+**S1_ActualPosition**: posición actual del husillo (mm)<br />
+**S1_ActualVelocity**: velocidad actual del husillo (mm/s)<br />
+**S1_ActualAcceleration**: aceleración actual del husillo (mm/s/s)<br />
+**S1_CommandPosition**: posición de referencia del husillo (mm)<br />
+**S1_CommandVelocity**: velocidad de referencia del husillo (mm/s)<br />
+**S1_CommandAcceleration**: aceleración de referencia del husillo (mm/s/s)<br />
+**S1_CurrentFeedback**: corriente actual (A)<br />
+**S1_DCBusVoltage**: voltaje (V)<br />
+**S1_OutputCurrent**: corriente de salida (A)<br />
+**S1_OutputVoltage**: voltaje de salida (V)<br />
+**S1_OutputPower**: potencia de salida (A)<br />
+**S1_SystemInertia**: inercia de torsión (kg*m^2)<br />
 
-M1_CURRENT_PROGRAM_NUMBER: número bajo el cual se lista el programa en el CNC
-M1_sequence_number: línea de G-code que se está ejecutando
-M1_CURRENT_FEEDRATE: velocidad de avance instantánea del husillo
+**M1_CURRENT_PROGRAM_NUMBER**: número bajo el cual se lista el programa en el CNC<br />
+**M1_sequence_number**: línea de código G que se está ejecutando<br />
+**M1_CURRENT_FEEDRATE**: velocidad de avance instantánea del husillo<br />
+
+---
 
 Hay que tener en cuenta que algunas variables no reflejarán con precisión el funcionamiento de la fresadora CNC. Esto generalmente se puede detectar cuando **M1_CURRENT_FEEDRATE lee 50**, cuando **X1 ActualPosition lee 198**, o cuando **M1_CURRENT_PROGRAM_NUMBER no lee 0**. La fuente de estos errores no ha sido identificada.
 
